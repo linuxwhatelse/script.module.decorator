@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.decorator"
+       name="decorator"
+       provider-name="micheles"
+       version="4.3.0">
+
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+    </requires>
+
+    <extension library="lib" point="xbmc.python.module"/>
+
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en_GB">decorator</summary>
+        <description lang="en_GB">decorator</description>
+        <license>BSD License</license>
+        <website>https://pypi.org/project/decorator</website>
+        <source>https://github.com/micheles/decorator</source>
+    </extension>
+</addon>
